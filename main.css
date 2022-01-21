@@ -1,0 +1,87 @@
+body {
+    background: linear-gradient(0deg, white, lightblue );
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    height: 100vh;
+}
+
+header {
+    background-color: white;
+    text-align: right;
+    padding: .75rem 0;
+    border-bottom: 1px solid dimgray;
+    box-shadow:
+        0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+header a {
+    color: white;
+    background-color: #13a0ff;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: .25rem .5rem;
+    margin-right: .5rem;
+    line-height: 1.5rem;
+    text-decoration: none;
+}
+
+header a:hover, form button:hover {
+    background-color: #1084d1;
+    cursor: pointer;
+}
+
+.container {
+    margin: auto;
+    padding: 1.5rem;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow:
+        0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container > h1 {
+    margin: 0 0 .5rem;
+}
+
+form input, form button {
+    width: 100%;
+    min-width: 275px;
+    box-sizing: border-box;
+    margin: .75rem 0;
+    padding: .25rem;
+    line-height: 1.5rem;
+    font-size: .9em;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+form button {
+    color: white;
+    background-color: #13a0ff;
+    line-height: 3rem;
+    font-size: 1.2rem;
+    border-radius: 9px;
+}
+
+footer {
+    margin-top: .75rem;
+    border-top: 1px solid lightgray;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+footer img {
+    margin: 0 1rem;
+}
+
+footer img:hover {
+    cursor: pointer;
+}
